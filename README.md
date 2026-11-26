@@ -19,7 +19,7 @@
 | **洪树 · 口喷式写作** | [skills/hongshu-talk-to-write](skills/hongshu-talk-to-write/SKILL.md) | `0.0.5` | 保住原汁原味口语感，去啰嗦、顺逻辑并单独列核查结果 | 语音转写稿 / 口述文字 |
 | **洪树 · 一键采集** | [skills/hongshu-content-collect](skills/hongshu-content-collect/SKILL.md) | `0.5.4` | 采集作品选题清单，并将视频/图文/文章转为干净 Markdown | 抖音 / B站 / 小红书 / 微信公众号 / 知乎 |
 | **洪树 · 一键拆号** | [skills/hongshu-account-analysis](skills/hongshu-account-analysis/SKILL.md) | `0.0.5` | 深度分析单账号内容主题、产品、用户反馈、人群与人设 | 公开自媒体账号（搭配一键采集或已有文稿） |
-| **洪树 · 一键图文** | [skills/hongshu-social-graphics](skills/hongshu-social-graphics/SKILL.md) | `0.11.6` | 自动匹配 5 种版式，先出预览图再导出 2160×2880 高清图文与文案 | 小红书 / 小绿书 / 抖音 |
+| **洪树 · 一键图文** | [skills/hongshu-social-graphics](skills/hongshu-social-graphics/SKILL.md) | `0.11.9` | 自动匹配 5 种版式，先出预览图再导出 2160×2880 高清图文与文案 | 小红书 / 小绿书 / 抖音 |
 | **洪树 · 一键分发** | [skills/hongshu-cross-post](skills/hongshu-cross-post/SKILL.md) | `0.5.2` | 跨平台批量发布视频和图文、定时预约、公众号发表或存草稿 | 抖音 / 视频号 / 小红书 / B站 / 微信公众号 |
 
 ---

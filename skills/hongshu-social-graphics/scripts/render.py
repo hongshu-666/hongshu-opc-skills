@@ -2015,6 +2015,13 @@ def _validate_diagram_spec(spec):
                     errors.append(f'图解第{idx}页: {e}')
         else:
             prev_kind = None
+    expected = str(spec.get('image_text') or spec.get('source_text') or '').strip()
+    if pages and expected and not spec.get('reuse_body'):
+        actual = ''.join(p for page in pages for p in (page.get('upper', []) + page.get('lower', [])))
+        exp_n, act_n = re.sub(r'\s+', '', expected), re.sub(r'\s+', '', actual)
+        if act_n != exp_n:
+            pos = next((i for i, (a, b) in enumerate(zip(exp_n, act_n)) if a != b), min(len(exp_n), len(act_n)))
+            errors.append(f'图解正文(upper+lower)未逐字承接完整原文（首处差异在「{exp_n[max(0,pos-6):pos+18]}」附近）；严禁未经同意删段或掐头去尾，仅获准精简才填image_text。')
     errors.extend(check_diagram_numbers(spec))
     return errors, warnings
 
