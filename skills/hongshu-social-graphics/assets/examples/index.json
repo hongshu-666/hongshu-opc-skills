@@ -1,0 +1,35 @@
+{
+  "path_base": "index.json所在目录",
+  "styles": [
+    {
+      "id": "朋友圈",
+      "label": "朋友圈",
+      "preview": "moments/01.webp",
+      "materials": "完整清晰的内容截图；背景用图库或本次指定照片"
+    },
+    {
+      "id": "字幕",
+      "label": "字幕",
+      "preview": "subtitle/01.webp",
+      "materials": "原文或清晰截图；背景用图库或本次指定照片"
+    },
+    {
+      "id": "图解",
+      "label": "图解",
+      "preview": "diagram/overview.webp",
+      "materials": "完整文章和标题；图解所需事实、关系、数据或案例；封面照片可用图库"
+    },
+    {
+      "id": "备忘录",
+      "label": "备忘录",
+      "preview": "memo/overview.webp",
+      "materials": "完整文章；标题可提供或拟定后确认；无需照片"
+    },
+    {
+      "id": "长文",
+      "label": "长文",
+      "preview": "article/overview.webp",
+      "materials": "完整文章；标题可提供或拟定后确认；封面照片用图库或指定"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "洪树 · 一键图文"
+  short_description: "一键生成适合小红书、小绿书和抖音的图文。支持图片拼接、长文分页和图解设计，多种版式可供选择。"
+  default_prompt: "使用 $hongshu-social-graphics 制作社媒图文，按主说明完成环境体检、出图预览与桌面成品交付。"
